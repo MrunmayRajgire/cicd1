@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'develop', url: 'https://github.com/MrunmayRajgire/cicd1.git'
+                git branch: 'main', url: 'https://github.com/MrunmayRajgire/cicd1.git'
             }
         }
         stage('Build All Modules') {
