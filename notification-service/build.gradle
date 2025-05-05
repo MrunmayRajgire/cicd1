@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClassName = 'com.example.notification.NotificationApplication'
+}
+
+dependencies {
+    // implementation 'org.springframework.boot:spring-boot-starter-web'
+}
